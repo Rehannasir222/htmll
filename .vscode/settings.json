@@ -1,0 +1,13 @@
+{
+    "debug.internalConsoleOptions": "neverOpen",
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.detectIndentation": false,
+    "editor.fontSize": 12,
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true,
+    "editor.tabSize": 3,
+    "prettier.tabWidth": 3,
+    "workbench.tree.indent": 24,
+    "livePreview.defaultPreviewPath": "/index.html"
+ }
+ 
