@@ -1,60 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>CSS media query</title>
-        <style>
-            body {
-                background-color: red;
-            }
-    
-            @media screen and (orientation: landscape) {
-                body{
-                    border: 2px solid purple;
-                }
-            }
-            @media screen and (orientation:  portrait) {
-                body{
-                    border: 2px solid green;
-                }
-            }
-    
-           
-                
-               
-            
-           
-           
-        </style>
-    </head>
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Login</title>
+      <link rel="stylesheet" href="main.css" />
+   </head>
 
-<body>
-    <center>
-        <h3> Login</h3>
-        <form action="login.php"></form>
-        <table>
+   <body>
+       <h1>Outlock</h1>
+        <div class="container">
             
-            <tr>
-                
-                <td><input type="text" placeholder="username"  ></td>
-            </tr>
-            <tr>
-               
-                <td> <input type="password" placeholder="password"></td>
-            </tr>
-           <tr>
-               <td><input type="checkbox">  remember me </td>
-               
-           </tr>
-           <tr>
-               <td> <input type="submit" value="login ">  </td>
-               
-           </tr>
+            
+                <div class="loginpage">
+                    <form>
+                    <h3>Microsoft</h3>   
+                   <h2> Sign in  </h2>
+                   <p>to continue to Outlook</p>
+                   <div class="email">
+                        <input type="text" placeholder="Email, Phone or Skype"></div>
+                        
+                        <div class="no "> No account? 
+                           <a href="#">Create on!</a>
+                        </div>
+                    </form>
 
-           
-               
-        </table>
-    </center>
-</body>
-</html></html>
+                    <button class="btn"> Next</button>
+                   
+                    
+                    
+                </div>
+              
+            </div>
+        
+        <div class="createaccount">
+                         <option value="sign in "> Sign in option</option>
+                    </div>
+   </body>
+</html>
