@@ -79,8 +79,8 @@ p {
    
 }
 
-.btn{
-   align-items: left;
+.bttn{
+  
    width: 90px;
    cursor: pointer;
    font-size: 23px;
@@ -94,13 +94,27 @@ p {
 .no{
    margin-top: 20px;
 }
-
-
-@media screen and (max-width: 600px) {
-   .col-25,
-   .col-75,
-   input[type="submit"] {
-      width: 100%;
-      margin-top: 0;
-   }
+.btn {
+   width: 33%;
+   padding: 10px;
+   background-color: white;
+   color: rgb(12, 12, 12);
+   border: none;
+   cursor: pointer;
+   margin-top: 10px;
 }
+
+
+
+@media (max-width: 768px) {
+   .container {
+      width: 90%;
+   }
+
+   .email input {
+      width: calc(100% - 20px);
+   }
+   
+      
+   }
+
